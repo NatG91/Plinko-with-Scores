@@ -46,9 +46,20 @@ function setup() {
 
 function draw() {
   background(0);  
-  drawSprites();
 
-  text("Score:" +score,40,40)
+  text("Score:" +score,40,40);
+  fill("white");
+  text("500",30,550);
+  text("500",110,550);
+  text("500",190,550);
+  text("500",270,550);
+  text("100",350,550);
+  text("100",430,550);
+  text("100",510,550);
+  text("200",590,550);
+  text("200",670,550);
+  text("200",750,550);
+  
 
   Engine.update(engine)
 
